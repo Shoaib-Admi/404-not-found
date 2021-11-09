@@ -1,0 +1,70 @@
+html {
+  font-size: 62.5%;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Space Mono", monospace;
+  margin: 20px;
+}
+header > p {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 3.247rem;
+  color: #333333;
+}
+main > p {
+  font-size: 1.8rem;
+  color: #4f4f4f;
+}
+
+.btn {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+  color: #fff;
+  font-weight: 700;
+}
+footer {
+  color: #4f4f4f;
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1100px) {
+  .container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px;
+  }
+  /*.box-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }*/
+  h1 {
+    font-size: 6.4rem;
+  }
+  .para {
+    font-size: 2.4rem;
+    margin-top: 20px;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+}
