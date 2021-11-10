@@ -27,6 +27,16 @@ main > p {
   font-size: 1.8rem;
   color: #4f4f4f;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box-one {
+  padding: 2rem;
+}
+.box-two {
+  padding: 2rem;
+}
 
 .btn {
   width: 216px;
@@ -44,25 +54,21 @@ footer {
 @media screen and (min-width: 1100px) {
   .container {
     margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 50px;
-  }
-  /*.box-two {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }*/
+    flex-direction: row;
+    align-items: center;
+  }
+  .box-one {
+    padding: 2rem;
+  }
+  .box-two {
+    padding: 2rem;
+  }
   h1 {
     font-size: 6.4rem;
   }
   .para {
     font-size: 2.4rem;
-    margin-top: 20px;
   }
   .btn {
     font-size: 1.4rem;
